@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>angle-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVG" transform="translate(-34.000000, -20.000000)" fill="#858585" fill-rule="nonzero">
+            <g id="angle-up" transform="translate(34.000000, 20.000000)">
+                <path d="M5.32945736,0.158914729 L9.8255814,4.7248062 C10.0077519,4.90697674 10.0077519,5.20155039 9.8255814,5.38372093 L9.5503876,5.65891473 C9.36821705,5.84108527 9.07364341,5.84108527 8.89147287,5.65891473 L5,1.69379845 L1.10852713,5.65503876 C0.926356589,5.8372093 0.631782946,5.8372093 0.449612403,5.65503876 L0.174418605,5.37984496 C-0.00775193798,5.19767442 -0.00775193798,4.90310078 0.174418605,4.72093023 L4.67054264,0.15503876 C4.85271318,-0.023255814 5.14728682,-0.023255814 5.32945736,0.158914729 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

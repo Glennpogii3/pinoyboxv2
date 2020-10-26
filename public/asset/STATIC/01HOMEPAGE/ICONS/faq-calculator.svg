@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="72px" viewBox="0 0 63 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>calculator</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="STATIC-PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOMEPAGE" transform="translate(-544.000000, -1646.000000)" fill="#00ACEE" fill-rule="nonzero">
+            <g id="FAQs" transform="translate(201.000000, 1491.000000)">
+                <g id="Group-5" transform="translate(283.000000, 121.000000)">
+                    <g id="calculator" transform="translate(60.000000, 34.000000)">
+                        <path d="M11.25,63 L51.75,63 C52.993125,63 54,61.993125 54,60.75 L54,33.75 C54,32.506875 52.993125,31.5 51.75,31.5 L11.25,31.5 C10.006875,31.5 9,32.506875 9,33.75 L9,60.75 C9,61.993125 10.006875,63 11.25,63 Z M40.5,49.5 L40.5,36 L49.5,36 L49.5,58.5 L40.5,58.5 L40.5,49.5 Z M27,36 L36,36 L36,45 L27,45 L27,36 Z M27,49.5 L36,49.5 L36,58.5 L27,58.5 L27,49.5 Z M13.5,36 L22.5,36 L22.5,45 L13.5,45 L13.5,36 Z M13.5,49.5 L22.5,49.5 L22.5,58.5 L13.5,58.5 L13.5,49.5 Z M56.25,0 L6.75,0 C3.15,0 0,3.15 0,6.75 L0,65.25 C0,68.85 3.15,72 6.75,72 L56.25,72 C59.85,72 63,68.85 63,65.25 L63,6.75 C63,3.15 59.85,0 56.25,0 Z M58.5,65.25 C58.5,66.3651562 57.3651562,67.5 56.25,67.5 L6.75,67.5 C5.63484375,67.5 4.5,66.3651562 4.5,65.25 L4.5,27 L58.5,27 L58.5,65.25 Z M58.5,22.5 L4.5,22.5 L4.5,6.75 C4.5,5.63484375 5.63484375,4.5 6.75,4.5 L56.25,4.5 C57.3651562,4.5 58.5,5.63484375 58.5,6.75 L58.5,22.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

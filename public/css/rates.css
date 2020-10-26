@@ -1,0 +1,15 @@
+
+div.card-quotation{
+    width: 469px;
+    height: 781px;
+    border-radius: 5px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+
+div.white-text-container.background-image-container-rates{
+    background-image: url(../asset/STATIC/03RATES/banner-desktop.jpg);
+    width: 1440px;
+  height: 298px;
+  
+}

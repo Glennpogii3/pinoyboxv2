@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>FLAG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+    </defs>
+    <g id="CUSTOMER-ADMIN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PACKAGES" transform="translate(-323.000000, -1130.000000)">
+            <g id="CHINA" transform="translate(304.000000, 1118.000000)">
+                <g id="CUSTOMER-FLAG-CIRCLE" transform="translate(19.000000, 12.000000)">
+                    <g id="FLAG">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="CUSTOMER-FLAG" mask="url(#mask-2)" opacity="0.8">
+                            <g transform="translate(-8.750000, 0.000000)" id="CUSTOMER-THAILAND">
+                                <g>
+                                    <g id="thailand">
+                                        <path d="M47.175,30.9723214 L0.825,30.9723214 C0.365625,30.9723214 0,30.6032738 0,30.1604167 L0,0.839583333 C0,0.3875 0.375,0.0276785714 0.825,0.0276785714 L47.165625,0.0276785714 C47.625,0.0276785714 47.990625,0.39672619 47.990625,0.839583333 L47.990625,30.1604167 C48,30.6125 47.625,30.9723214 47.175,30.9723214 Z" id="Shape" fill="#F5F5F5" fill-rule="nonzero"></path>
+                                        <g id="Group" fill="#FF4B55" fill-rule="nonzero">
+                                            <path d="M47.175,30.9723214 L0.825,30.9723214 C0.365625,30.9723214 0,30.6032738 0,30.1604167 L0,26.0916667 L48,26.0916667 L48,30.1604167 C48,30.6125 47.625,30.9723214 47.175,30.9723214 Z" id="Shape"></path>
+                                            <path d="M0.825,0.0276785714 L47.165625,0.0276785714 C47.625,0.0276785714 47.990625,0.39672619 47.990625,0.839583333 L47.990625,4.90833333 L0,4.90833333 L0,0.839583333 C0,0.3875 0.375,0.0276785714 0.825,0.0276785714 Z" id="Shape"></path>
+                                        </g>
+                                        <rect id="Rectangle-path" fill="#41479B" fill-rule="nonzero" x="0" y="9.79821429" width="48" height="11.4035714"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

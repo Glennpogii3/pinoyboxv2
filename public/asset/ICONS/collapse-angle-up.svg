@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="9px" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>angle-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CUSTOMER-COLLAPSE-SVG" transform="translate(-16.000000, -19.000000)" fill="#8F98AD" fill-rule="nonzero">
+            <g id="angle-up" transform="translate(16.000000, 19.000000)">
+                <path d="M7.46124031,0.22248062 L13.755814,6.61472868 C14.0108527,6.86976744 14.0108527,7.28217054 13.755814,7.5372093 L13.3705426,7.92248062 C13.1155039,8.17751938 12.7031008,8.17751938 12.448062,7.92248062 L7,2.37131783 L1.55193798,7.91705426 C1.29689922,8.17209302 0.884496124,8.17209302 0.629457364,7.91705426 L0.244186047,7.53178295 C-0.0108527132,7.27674419 -0.0108527132,6.86434109 0.244186047,6.60930233 L6.53875969,0.217054264 C6.79379845,-0.0325581395 7.20620155,-0.0325581395 7.46124031,0.22248062 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

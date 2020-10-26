@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ban</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="STATIC-PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOMEPAGE" transform="translate(-1109.000000, -1647.000000)" fill="#00ACEE" fill-rule="nonzero">
+            <g id="FAQs" transform="translate(201.000000, 1491.000000)">
+                <g id="Group-5" transform="translate(850.000000, 121.000000)">
+                    <g id="ban" transform="translate(58.000000, 35.000000)">
+                        <path d="M32.5,0 C14.5506956,0 0,14.5506956 0,32.5 C0,50.4493044 14.5506956,65 32.5,65 C50.4493044,65 65,50.4493044 65,32.5 C65,14.5506956 50.4493044,0 32.5,0 Z M12.4843246,52.5156754 C1.91894153,41.9502923 1.45673387,25.1321976 11.0558972,14.021129 L50.979002,53.9441028 C39.8655746,63.5452319 23.0476109,63.0789617 12.4843246,52.5156754 Z M53.9441028,50.978871 L14.021129,11.0558972 C25.1345565,1.45489919 41.9523891,1.92116935 52.5156754,12.4843246 C63.0810585,23.0495766 63.5432661,39.8678024 53.9441028,50.978871 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

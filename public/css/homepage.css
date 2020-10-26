@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+/*Body CSS */
+body {
+margin:  0;
+padding: 0;
+width: 100%;
+height: 100%;
+min-width: 0;
+font-family: Nunito;
+overflow-x: hidden;
+}
+
+
+.container h1 {
+  padding: 180px 10px 20px 10px;
+  text-align: left;
+}
+.container a {
+    text-align: left;
+}
+
+
+
+.shoponline{
+  font-family: Nunito;
+  text-align: left;
+  font-size: 46px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #ffffff;
+
+  }
+
+
+div.container.text-center{
+
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #414141;
+    min-width: 100%;
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 1px 2px 14px 10px rgba(0, 0, 0, 0.06);
+    background-color: #000000;
+
+  }
+
+.nav-item
+{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414141;
+}
+
+
+.btn.btn-primary{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+#nav-login{
+    color: #00acee;
+}
+#nav-login:hover{
+    border-radius: 5px;
+    border: solid 1px #00acee;
+
+}
+
+#btn-gradient{
+    background-image: linear-gradient(262deg, #3ecaff 57%, #00acee);
+    border-radius: 5px;
+    width: 183px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+#btn-white{
+    width: 183px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #00acee;
+    background-color: #ffffff;
+    color:  #00acee;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#navbarSupportedContent.collapse.navbar-collapse{
+    width: 570px;
+    height: 16px;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414141;
+  }
+
+h5 .countries{
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:  #002c3d;
+}
+
+div.container.p{
+    width: 374px;
+    height: 19px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:  #002c3d;
+}
+a{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00acee;
+}
+.rewards{
+    width: 1440px;
+  height: 44px;
+  min-width: 100%;
+  background-color: #cbe7f2;
+}
+.countries{
+    width: 374px;
+    height: 19px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #002c3d;
+}
+.country{
+  width: 830px;
+  height: 26px;
+  font-family: Nunito;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #414141;
+
+}
+
+a.nav-link.create{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00acee;
+}
+
+.white-text-container.background-image-container-welcome{
+    background-image: linear-gradient(80deg, #000000 40%, rgba(216, 216, 216, 0) 77%);
+    background: url(../asset/STATIC/01HOMEPAGE/main-banner-deskto.jpg);
+    width: 100%;
+    height: 453px;
+   max-width: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+
+.white-text-container.background-image-container-globe{
+  width: 1440px;
+  height: 126px;
+  background-color: #f7f7f7;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+
+/* footer CSS */
+
+footer
+{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3d3d3d;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.footer-bs {
+
+    background-color: #3d3d3d;
+    color: #ffffff;
+    height: 372px;
+    width: 100%;
+}
+
+
+
