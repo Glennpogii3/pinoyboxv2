@@ -105,7 +105,7 @@
 
 
         <footer class="footer-bs">
-            <div class="row">
+            <div class="row footer">
                 <div class="col-md-3 footer-brand animated fadeInLeft">
                     <a href="{{ route('welcome') }}">
                         <img src="..\asset\STATIC\FOOTER\logo-footer.svg" class="logo-footer-svg">
