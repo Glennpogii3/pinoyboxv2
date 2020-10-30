@@ -209,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-        <footer class="footer-black">
+        <footer class="footer-blck">
 
 
         </footer>

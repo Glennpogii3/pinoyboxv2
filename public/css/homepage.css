@@ -253,8 +253,14 @@ footer
 }
 
 
-.row.footer {
-
-    padding: 166px 0px 0px 0px;
-
+.footer-blck {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    height: 249px;
+    width: 100%;
 }
+
+.row.footer {
+    padding: 166px 0px 0px 0px;
+}
+
