@@ -2,17 +2,13 @@
 
         @section('content')
 
-            <div class="white-text-container background-image-container" style="background-image: url('public/asset/STATIC/HOMEPAGE/main-banner-deskto.jpg')">
+            <div class="white-text-container background-image-container-works">
                 <div class="opacity"></div>
                 <div class="container">
                     <div class="row">
-
                         <div class="col-md-12">
-                            <center>
-                            <h1>How Pinoyboxdelivery Works.
-
-                                <br> <a href="" title="WATCH OUR VIDEO" class="btn btn-lg btn-primary">WATCH OUR VIDEO</a></h1>
-                            </center>
+                            <h1 class="howitworks" >How Pinoyboxdelivery Works.</h1>
+                            <a  href="" title="WATCH OUR VIDEO" class="btn btn-lg btn-primary">WATCH OUR VIDEO</a>
                         </div>
                     </div>
                 </div>
@@ -20,7 +16,7 @@
 
 
 
-            <div class="white-text-container background-image-container" style="background-image: url('public/asset/STATIC/HOMEPAGE/main-banner-deskto.jpg')">
+            <div class="white-text-container background-image-container">
                 <div class="opacity"></div>
                 <div class="container">
                     <div class="row">
@@ -75,7 +71,7 @@
             </div>
 
 
-            <footer class="footer-black">
+            <footer class="footer-blck">
 
 
             </footer>

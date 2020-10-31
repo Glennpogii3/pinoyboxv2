@@ -7,11 +7,11 @@
             <div class="row">
                 <div class="col-md-6">
                    <div class="container" >
-                    <h1 class="shoponline" > Shop online from abroad & we'll ship it to your doorstep! </h1>
-                    <a href="" title="learn-more" id="btn-white" class="btn btn-lg btn-primary " >Learn more</a>
-                     <a href="{{ route('register') }}" title="create an account" id="btn-gradient" class="btn btn-lg btn-primary" >CREATE AN ACCOUNT</a>
-                        </div>
+                        <h1 class="shoponline" > Shop online from abroad & we'll ship it to your doorstep! </h1>
+                        <a href="" title="learn-more" id="btn-white" class="btn btn-lg btn-primary " >Learn more</a>
+                        <a href="{{ route('register') }}" title="create an account" id="btn-gradient" class="btn btn-lg btn-primary" >CREATE AN ACCOUNT</a>
                     </div>
+               </div>
             </div>
         </div>
 
@@ -113,8 +113,7 @@
 
                 </div>
                 <div class="col-md-4 footer-nav animated fadeInUp">
-                    <h4>INFO</h4>
-                    <div class="col-md-6 ">
+                    <h4 class="footer-head" >INFO</h4>
                         <ul class="pages">
                             <li class="footer-item"><a class="footer-link" href="">About Pinoyboxdelivery</a></li>
                             <li class="footer-item"><a class="footer-link" href="{{ route('howitworks') }}">How it works</a></li>
@@ -122,10 +121,9 @@
                             <li class="footer-item"><a class="footer-link" href="{{ route('services') }}">Services</a></li>
                             <li class="footer-item"><a class="footer-link" href="{{ route('faqs') }}">FAQs</a></li>
                         </ul>
-                    </div>
                 </div>
                 <div class="col-md-2 footer-contact animated fadeInDown">
-                    <h4>Contact US</h4>
+                    <h4 class="footer-head" >Contact US</h4>
                     <ul class="pages">
                         <li class="footer-item"><a class="footer-link" href="#">wedeliver@pinoyboxdelivery.com</a></li>
                         <li class="footer-item"><a class="footer-link" href="#">Open from 10AM-6PM from</a></li>
@@ -133,7 +131,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 footer-ns animated fadeInRight">
-                    <h4 >Get new promos and updates!</h4>
+                    <h4 class="footer-head">Get new promos and updates!</h4>
                     <p>Subscribe to pinoyboxdelivery newsletter</p>
                     <p>
                         <div class="input-group">

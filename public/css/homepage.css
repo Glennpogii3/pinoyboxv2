@@ -13,27 +13,28 @@ overflow-x: hidden;
 }
 
 
-.container h1 {
-  padding: 180px 10px 20px 10px;
-  text-align: left;
-}
+
 .container a {
     text-align: left;
 }
 
+h1
+{
+    font-family: Nunito;
+    text-align: left;
+    font-size: 46px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #ffffff;
 
+}
 
-.shoponline{
-  font-family: Nunito;
-  text-align: left;
-  font-size: 46px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.15;
-  letter-spacing: normal;
-  color: #ffffff;
-
+.shoponline {
+    padding: 180px 10px 20px 10px;
+    text-align: left;
   }
 
 
@@ -223,6 +224,47 @@ a.nav-link.create{
   max-width: 100%;
   min-width: 100%;
 }
+/* how it works  */
+
+.white-text-container.background-image-container-works
+{
+    background-image: linear-gradient(80deg, #000000 40%, rgba(216, 216, 216, 0) 77%);
+    background: url(../asset/STATIC/02HOWITWORKS/banner.jpg);
+    width: 100%;
+    height: 298px;
+   max-width: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+
+
+.howitworks
+{
+    text-align: center;
+    padding: 140px 0px 0px 0px;
+}
+/*Track your Shipment*/
+
+.white-text-container.background-image-container-track
+{
+    background-image: linear-gradient(80deg, #000000 40%, rgba(216, 216, 216, 0) 77%);
+        background: url(../asset/STATIC/07TRACKING/banner-desktop.png);
+    width: 100%;
+    height: 298px;
+   max-width: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.track
+{
+    text-align: center;
+    padding: 146px 0px 47px 0px;
+}
 
 
 
@@ -240,6 +282,40 @@ footer
     color: #3d3d3d;
     padding: 20px;
     text-align: center;
+
+}
+
+.footer-bs .pages
+ {
+    list-style:none;
+    padding:0px;
+}
+
+.footer-bs .footer-item
+{
+
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.42;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.footer-head
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.footer-item .footer-link
+{
+    text-decoration: none;
+    color: #ffffff;
 
 }
 
