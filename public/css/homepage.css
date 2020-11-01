@@ -289,6 +289,7 @@ footer
  {
     list-style:none;
     padding:0px;
+
 }
 
 .footer-bs .footer-item
@@ -320,12 +321,18 @@ footer
 }
 
 
+.col-md-3.col-sm-4.footer-nav.animated.fadeInUp
+{
+    padding: 0px 0px 0px 60px;
+}
+
 .footer-bs {
 
     background-color: #3d3d3d;
     color: #ffffff;
     height: 372px;
     width: 100%;
+    padding: 0%;
 }
 
 
@@ -337,6 +344,8 @@ footer
 }
 
 .row.footer {
-    padding: 166px 0px 0px 0px;
+    padding: 166px 60px 20px 60px;
 }
+
+
 
