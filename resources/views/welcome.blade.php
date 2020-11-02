@@ -140,7 +140,7 @@
                         <div class="input-group">
                           <input type="text" class="form-control" placeholder="Search for...">
                           <span class="input-group-btn">
-                            <button  id="btn-gradient" class="btn btn-lg btn-primary" type="button">Subscribe</button>
+                           <button  class="btn btn-sml btn-primary" type="button">Subscribe</button>
                           </span>
                         </div><!-- /input-group -->
                      </p>

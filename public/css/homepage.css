@@ -238,7 +238,33 @@ a.nav-link.create{
    background-size: cover;
 }
 
+/* RATES CSS */
 
+.white-text-container.background-image-container-rates
+{
+    background-image: linear-gradient(80deg, #000000 40%, rgba(216, 216, 216, 0) 77%);
+    background: url(../asset/STATIC/03RATES/banner-desktop.jpg);
+    width: 100%;
+    height: 298px;
+   max-width: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.head-rates
+{
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 116px 0px 77px 0px;
+}
 
 
 .howitworks
@@ -266,9 +292,7 @@ a.nav-link.create{
     padding: 146px 0px 47px 0px;
 }
 
-
-
-/* footer CSS */
+/* Footer CSS */
 
 footer
 {
@@ -335,6 +359,11 @@ footer
     padding: 0%;
 }
 
+.row.footer {
+    padding: 166px 60px 20px 60px;
+}
+
+/*default Footer*/
 
 .footer-blck {
     background-color: #3d3d3d;
@@ -343,9 +372,37 @@ footer
     width: 100%;
 }
 
-.row.footer {
-    padding: 166px 60px 20px 60px;
+
+.footer-blck .footer-item
+{
+
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.42;
+    letter-spacing: normal;
+    text-align: left;
 }
 
 
+.row.footer-2 {
+    padding: 40px 20px 20px 40px;
+}
+
+
+.footer-blck .pages
+ {
+    list-style:none;
+    padding:0px;
+
+}
+
+.btn.btn-sml.btn-primary{
+    width: 99px;
+    height: 40px;
+    background-image: linear-gradient(262deg, #3ecaff 57%, #00acee);
+    border-radius: 5px;
+}
 
