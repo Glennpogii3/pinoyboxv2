@@ -19,9 +19,9 @@ class CreateUsersTable extends Migration
             $table->string('lname');
             $table->string('email')->unique();
             $table->string('phone');
-            $table->bigInteger('accType');
-            $table->string('address1');
-            $table->string('address2');
+            $table->tinyInteger('accType')->default('3');
+            $table->string('address1')->nullable();
+            $table->string('address2')->nullable();
             $table->bigInteger('status');
             $table->bigInteger('active');
             $table->string('customer_Code');

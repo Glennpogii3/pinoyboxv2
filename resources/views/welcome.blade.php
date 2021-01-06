@@ -25,7 +25,7 @@
                 <div class="right">
                   <div class="col-md-8">
                     <h5 class="countries">YOU CAN NOW SHOP ONLINE FROM THESE COUNTRIES</h5>
-                <p class="country">United States, United Kingdom, Canada, China, Thailand, Hongkong, Spain, South Korea</p>
+                 <p class="country">United States, United Kingdom, Canada, China, Thailand, Hongkong, Spain, South Korea</p>
             </div>
             </div>
             </div>
@@ -38,8 +38,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3>HOW ONLINE SHOPPING MADE VERY EASY</h3>
-                    <h5>3 easy step on how Pinoyboxdelivery works</h5>
+                    <h1 class="header-body">HOW ONLINE SHOPPING MADE VERY EASY</h1>
+                    <p class="p-home">3 easy step on how Pinoyboxdelivery works</p>
                 </div>
             </div>
         </div>
@@ -59,26 +59,21 @@
                 <div class="row">
 
                     <div class="col-md-12">
-                        <center>
-                        <h3>GUIDE FOR FAST AND EASY INTERNATIONAL SHIPPING </h3>
-
+                        <h1 class="header-body" >GUIDE FOR FAST AND EASY INTERNATIONAL SHIPPING </h1>
                       <a href="{{ route('faqs') }}" title="view-faqs" id="btn-white" class="btn btn-lg btn-primary" >VIEW FAQS</a>
                       <a href="{{ route('register') }}" title="CREATE AN ACCOUNT" id="btn-gradient" class="btn btn-lg btn-primary">CREATE AN ACCOUNT</a>
-                        </center>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="white-text-container background-image-container" style="background-image: url('public/asset/STATIC/HOMEPAGE/main-banner-deskto.jpg')">
+        <div class="white-text-container background-image-container">
             <div class="opacity"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <center>
-                        <h3>WHY THOUSANDS OF ONLINE SHOPPERS <br> LOVE PINOY BOX DELIVERY (PBD)</h3>
-                        <h5>International shipping made easy!</h5>
-                        </center>
+                        <h1 class="header-body" >WHY THOUSANDS OF ONLINE SHOPPERS <br> LOVE PINOY BOX DELIVERY (PBD)</h1>
+                        <p class="p-home">International shipping made easy!</p>
                     </div>
                 </div>
             </div>
@@ -92,10 +87,8 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <h3>AFFORDABLE SHIPPING RATES</h3>
-                        <br>
-                        <h5>With PinoyBoxDelivery you can save at least 80% on <br> shipping with our very affordable shipping rates.</h5>
-                        <br>
+                        <h1 class="header-body">AFFORDABLE SHIPPING RATES</h1>
+                        <p class="p-home">With PinoyBoxDelivery you can save at least 80% on <br> shipping with our very affordable shipping rates.</p>
 
                          <a href="{{ route('rates') }}" title="CREATE AN ACCOUNT" id="btn-gradient" class="btn btn-lg btn-primary">VIEW RATES</a>
                     </div>
@@ -125,9 +118,12 @@
                 <div class="col-md-3 col-sm-4 footer-contact animated fadeInDown">
                     <h4 class="footer-head" >Contact US</h4>
                     <ul class="pages">
-                        <li class="footer-item"><a class="footer-link" href="#">wedeliver@pinoyboxdelivery.com</a></li>
-                        <li class="footer-item"><a class="footer-link" >Open from 10AM-6PM from</a></li>
-                        <li class="footer-item"><a class="footer-link" >Monday to Friday</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            wedeliver@pinoyboxdelivery.com</a></li>
+                        <li class="footer-item"><a class="footer-link" ><i class="fa fa-home" aria-hidden="true"></i>
+                            Open from 10AM-6PM from</a></li>
+                        <li class="footer-item"><a class="footer-link" ><i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            Monday to Friday</a></li>
                     </ul>
 
                 </div>

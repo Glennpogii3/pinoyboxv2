@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\Admin\UsersController;
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +24,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+
+Route::group(['middleware' => ['auth', 'isAdmin']], function (){
+
+    Route::get('/admindashboard', function () {
+        return view('admin.admindashboard');
+    });
+
+});
 
 
 Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users')->group(function(){

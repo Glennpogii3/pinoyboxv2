@@ -17,14 +17,22 @@ class UsersTableSeeder extends Seeder
     {
 
 
-        DB::table('users')->insert([
+        User::truncate();
+
+        DB::table('role_user')->truncate();
+
+        $superadminRole = Role::where('name', 'superadmin')->first();
+        $adminRole = Role::where('name', 'admin')->first();
+        $userRole = Role::where('name', 'user')->first();
+
+        $superadmin = User::create([
             'fname' => 'Super',
             'lname' => 'Admin',
             'email' => 'admin@dmin.com',
             'phone' => '905906435',
             'accType' => '1',
-            'address1' => 'Prestige1',
-            'address2' => 'Prestige2',
+            'address1' => 'admin1',
+            'address2' => 'admin2',
             'status' => '1',
             'active' => '1',
             'customer_Code' => 'PBD-000001',
@@ -32,14 +40,14 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('admin@admin')
         ]);
 
-        DB::table('users')->insert([
+        $admin = User::create([
             'fname' => 'PBD' ,
             'lname' => 'Admin',
             'email' => 'PBDadmin@pbd.com',
             'phone' => '905906436',
             'accType' => '2',
-            'address1' => 'Prestige3',
-            'address2' => 'Prestige4',
+            'address1' => 'admin3',
+            'address2' => 'admin4',
             'status' => '1',
             'active' => '1',
             'customer_Code' => 'PBD-000002',
@@ -47,14 +55,14 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('PBDVision2020')
         ]);
 
-        DB::table('users')->insert([
+        $user = User::create([
             'fname' => 'Generic' ,
             'lname' => 'User',
             'email' => 'user@user.com',
             'phone' => '905906437',
             'accType' => '3',
-            'address1' => 'PBDuser1',
-            'address2' => 'PBDUser2',
+            'address1' => 'admin3',
+            'address2' => 'admin4',
             'status' => '1',
             'active' => '1',
             'customer_Code' => 'PBD-000003',
@@ -63,6 +71,9 @@ class UsersTableSeeder extends Seeder
         ]);
 
 
+        $superadmin->roles()->attach($superadminRole);
+        $admin->roles()->attach($adminRole);
+        $user->roles()->attach($userRole);
     }
 
 }

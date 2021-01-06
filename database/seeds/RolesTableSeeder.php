@@ -11,21 +11,13 @@ class RolesTableSeeder extends Seeder
      *
      * @return void
      */
+
     public function run()
     {
-        DB::table('roles')->insert([
-            'role_name' => 'Superadmin',
-            'role_slug' => 'superadmin',
-        ]);
+        Role::truncate();
 
-        DB::table('roles')->insert([
-            'role_name' => 'Admin',
-            'role_slug' => 'admin',
-        ]);
-
-        DB::table('roles')->insert([
-            'role_name' => 'User',
-            'role_slug' => 'user',
-        ]);
+        Role::Create(['name' => 'superadmin']);
+        Role::Create(['name' => 'admin']);
+        Role::Create(['name' => 'user']);
     }
 }

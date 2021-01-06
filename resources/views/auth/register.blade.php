@@ -30,6 +30,11 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-body">
+                    <div class="left">
+                        <img class="register-png" src="..\asset\STATIC\REGSITER-LOGIN\REGISTER.png">
+                    </div>
+                    <div class="right">
+                        <div class="formbox">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
                         <div class="form-group row">
@@ -92,6 +97,8 @@
                     </form>
                 </div>
             </div>
+           </div>
+        </div>
         </div>
     </div>
 </div>

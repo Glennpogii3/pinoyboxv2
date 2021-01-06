@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Middleware;
+use Illuminate\Support\Facades\Auth;
 
 
-use Auth;
 use Closure;
 
 
@@ -18,20 +18,15 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-       if (Auth::check() )
 
-       {
-            if (Auth::user()->role_id == 1 )
-            {
-                return $next($request);
-            }
+        if (Auth::user()->role_id == '1' )
 
-            else
-            {
-                return redirect()->route('login');
-            }
-
-       }
-
+        {
+            return $next($request);
+        }
+        else
+        {
+            return redirect('/welcome')->with('status', 'You are not allowed to access the Admin Dashboard');
+        }
     }
 }

@@ -42,6 +42,7 @@ class LoginController extends Controller
 
     public function redirectTo()
     {
+
         if(Auth::user()->hasRole('superadmin')){
             $this->redirectTo = route('admin.users.index');
             return $this->redirectTo;
@@ -49,6 +50,7 @@ class LoginController extends Controller
 
         $this->redirectTo = route('home');
         return $this->redirectTo;
+
 
     }
 }

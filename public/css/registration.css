@@ -6,15 +6,54 @@ body
 }
   .card
   {
-    top: 40px;
-    margin: 0%;
     width: 768px;
-    height: 640px;
+    height: 660px;
+    margin: 26px 0 116px;
+    padding: 0 1px 18px 0;
     border-radius: 5px;
     box-shadow: 1px 0 20px 0 rgba(0, 0, 0, 0.06);
     border: solid 1px var(--pale-grey);
     background-color: #ffffff;
   }
+
+  .container .left
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+
+}
+
+.container .right
+{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+
+}
+
+  .card-body{
+    padding: 0px;
+    margin: 0%;
+}
+
+.formbox
+{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.form-control{
+     width: 276px;
+     height: 40px;
+     border-radius: 5px;
+     border: solid 1px #dde2ee;
+     background-color: #ffffff;
+   }
 
 
   .logo-svg
@@ -38,7 +77,6 @@ footer
     line-height: normal;
     letter-spacing: normal;
     color: #3d3d3d;
-    padding: 100px;
     text-align: center;
 
 }

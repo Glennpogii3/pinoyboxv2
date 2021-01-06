@@ -28,11 +28,11 @@
             Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
         -->
           <div class="logo">
-            <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-              Jane
+            <a href="#" class="simple-text logo-mini">
+                First name
             </a>
-            <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-              Doe
+            <a href="#" class="simple-text logo-normal">
+                Last Name
             </a>
           </div>
           <div class="sidebar-wrapper" id="sidebar-wrapper">
